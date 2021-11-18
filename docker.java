@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tugasdocker {
+public class docker {
 	public static void main(String[]  args) {
 		Scanner dika = new Scanner(System.in);
 		char KODEDika [] = {'A','B','D','E','F','G','H','L','N','T'};
@@ -16,7 +16,7 @@ public class tugasdocker {
 						 {'M','A','L','A','N','G',' ',' ',' ',' ',' ',' '},
 						 {'T','E','G','A','L',' ',' ',' ',' ',' ',' ',' '}
 						 };
-		for(int i=0;i<10;i++){
+		 for(int i=0;i<10;i++){
 			System.out.print(KODEDika[i]+"   ");
 			for(int j=0;j<10;j++){
 				for(int k=0;k<12;k++){
