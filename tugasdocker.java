@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tugas_Docker {
+public class tugasdocker {
 	public static void main(String[]  args) {
 		Scanner dika = new Scanner(System.in);
 		char KODEDika [] = {'A','B','D','E','F','G','H','L','N','T'};
