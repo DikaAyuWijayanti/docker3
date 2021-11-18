@@ -3,8 +3,8 @@ MAINTAINER dika6 <1931710071@student.polinema.ac.id>
 RUN mkdir -p /app
 WORKDIR /app
 
-COPY docker2.java /app
+COPY docker3.java /app
 #compile file java
-RUN javac docker2.java
+RUN javac docker3.java
 #running java
-ENTRYPOINT java doker2
+ENTRYPOINT java docker3
